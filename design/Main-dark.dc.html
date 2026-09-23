@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Guará — landing page (desktop, escuro)</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,300..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap">
+<style>
+body{margin:0;background:#141A17;color:#F4F3EE;font-family:'Instrument Sans','Helvetica Neue',Arial,sans-serif}
+a{color:#F4F3EE}a:hover{color:#E0381C}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #E0381C;outline-offset:3px}
+.btn{transition:background-color .18s ease,color .18s ease,transform .18s ease}
+.btn:hover{transform:translateY(-1px)}
+.btn-fill:hover{background:#B82A13;color:#FFFFFF}
+.btn-ink:hover{background:#DEDCD4;color:#141A17}
+.btn-line:hover{background:#F4F3EE;color:#141A17}
+@media (prefers-reduced-motion:reduce){.btn{transition:none}.btn:hover{transform:none}}
+</style>
+</helmet>
+<div style="width: 1440px; height: 5480px; box-sizing: border-box; background: #141A17; color: #F4F3EE; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; display: flex; flex-direction: column; overflow: hidden;">
+
+  <!-- NAV -->
+  <header style="height: 88px; box-sizing: border-box; padding: 0 64px; display: flex; align-items: center; justify-content: space-between; border-bottom: 2px solid #F4F3EE;">
+    <a href="#topo" aria-label="Guará Marketing, início" style="display: flex; align-items: center; gap: 12px; text-decoration: none; color: #F4F3EE;">
+      <svg width="34" height="34" viewBox="0 0 34 34" fill="none" aria-hidden="true"><circle cx="17" cy="17" r="16" fill="#E0381C"></circle><path d="M9 22c3-9 9-12 16-11-4 2-6 5-7 9-1 3-3 4-6 4-1 0-2-1-3-2z" fill="#141A17"></path></svg>
+      <span style="font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-weight: 800; font-size: 26px; letter-spacing: -0.02em;">Guará Marketing</span>
+    </a>
+    <nav aria-label="Principal" style="display: flex; gap: 36px; font-size: 16px; font-weight: 500;">
+      <a href="#caminho" style="text-decoration: none;">O caminho Guará</a>
+      <a href="#sobre" style="text-decoration: none;">Quem somos</a>
+      <a href="#ofertas" style="text-decoration: none;">Ofertas</a>
+    </nav>
+    <a href="#contato" class="btn btn-fill" style="display: inline-flex; align-items: center; height: 48px; padding: 0 22px; background: #E0381C; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 16px; border-radius: 999px;">Quero saber mais</a>
+  </header>
+
+  <!-- SEÇÃO 1: HERO -->
+  <section id="topo" style="height: 760px; box-sizing: border-box; padding: 80px 64px 64px; display: flex; flex-direction: column; justify-content: space-between; position: relative; overflow: hidden;">
+    <div style="display: flex; flex-direction: column; gap: 8px; position: relative;">
+      <p style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 500; font-size: 40px; line-height: 1.1; letter-spacing: -0.02em; color: #B7BDB9;">Se a pressa é inimiga da perfeição</p>
+      <h1 style="margin: 0; font-family: 'Bricolage Grotesque', 'Arial Black', sans-serif; font-weight: 800; font-size: 118px; line-height: 0.92; letter-spacing: -0.035em; max-width: 12ch; text-wrap: balance;">Então a perfeição é inimiga do lucro</h1>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; align-items: end; position: relative;">
+      <p style="grid-column: 1 / span 6; margin: 0; font-size: 22px; line-height: 1.45; color: #B7BDB9; max-width: 40ch;">Em um mundo competitivo, as oportunidades são janelas com data de validade. E quem não se move rápido o bastante, morre.</p>
+      <div style="grid-column: 8 / span 5; display: flex; justify-content: flex-end;">
+        <a href="#contato" class="btn btn-fill" style="display: inline-flex; align-items: center; height: 60px; padding: 0 30px; background: #E0381C; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 18px; border-radius: 999px;">Quero saber mais</a>
+      </div>
+    </div>
+    <svg aria-hidden="true" width="460" height="460" viewBox="0 0 460 460" style="position: absolute; right: -90px; top: 60px;"><circle cx="230" cy="230" r="230" fill="#E0381C"></circle></svg>
+  </section>
+
+  <!-- SEÇÃO 2 -->
+  <section style="height: 520px; box-sizing: border-box; padding: 96px 64px; border-top: 2px solid #F4F3EE; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; align-items: center;">
+    <h2 style="grid-column: 1 / span 7; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 60px; line-height: 1; letter-spacing: -0.03em; text-wrap: balance;">Acelerar a qualquer custo também leva as empresas a baterem na parede</h2>
+    <p style="grid-column: 9 / span 4; margin: 0; font-size: 21px; line-height: 1.5; color: #B7BDB9;">IA é a maior máquina que o ser humano já criou. Porém, para ela dar resultado, precisa da pessoa certa pilotando.</p>
+  </section>
+
+  <!-- SEÇÃO 3: TARJA + APOIO -->
+  <div style="height: 80px; box-sizing: border-box; background: #F4F3EE; color: #141A17; display: flex; align-items: center; padding: 0 64px; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 26px; letter-spacing: -0.01em;">O futuro chegou para mudar exatamente isso:</div>
+  <section style="height: 440px; box-sizing: border-box; padding: 80px 64px; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; align-items: center;">
+    <p style="grid-column: 1 / span 6; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 600; font-size: 36px; line-height: 1.15; letter-spacing: -0.02em; text-wrap: pretty;">Atualmente é possível entregar uma estratégia de marketing digital de extrema qualidade com velocidade alta.</p>
+    <p style="grid-column: 8 / span 5; margin: 0; font-size: 21px; line-height: 1.5; color: #B7BDB9; border-left: 3px solid #E0381C; padding-left: 24px;">Só que as agências de marketing brasileiras estão preocupadas em vender mais invés de melhorar a entrega.</p>
+  </section>
+
+  <!-- SEÇÃO 4: DECLARAÇÃO -->
+  <section style="height: 440px; box-sizing: border-box; padding: 96px 64px; background: #0F3B2E; color: #141A17; display: flex; align-items: center;">
+    <p style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 54px; line-height: 1.05; letter-spacing: -0.03em; max-width: 22ch; text-wrap: balance;">Guará Marketing é a startup-agência brasileira especializada em geração de receita a partir de produções estratégicas feitas em alta escala e velocidade.</p>
+  </section>
+
+  <!-- SEÇÃO 5: DUAS VERTICAIS -->
+  <section id="caminho" style="height: 680px; box-sizing: border-box; padding: 96px 64px; display: flex; flex-direction: column; gap: 48px;">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 64px; line-height: 1; letter-spacing: -0.03em;">O caminho Guará em duas verticais</h2>
+    <ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2px; background: #F4F3EE; border: 2px solid #F4F3EE;">
+      <li style="background: #141A17; padding: 40px; box-sizing: border-box; height: 380px; display: flex; flex-direction: column; gap: 20px;">
+        <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 56px; color: #E0381C; line-height: 1;">1</span>
+        <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 32px; letter-spacing: -0.02em; line-height: 1.1;">Consultoria Estratégica</h3>
+        <p style="margin: 0; font-size: 18px; line-height: 1.55; color: #B7BDB9;">Aplicamos consultoria estratégica como o core do nosso trabalho. Nenhum projeto é executado sem isso, não somos apertadores de botão. O resultado só é alcançado com as ações na direção e no momento certos.</p>
+      </li>
+      <li style="background: #141A17; padding: 40px; box-sizing: border-box; height: 380px; display: flex; flex-direction: column; gap: 20px;">
+        <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 56px; color: #E0381C; line-height: 1;">2</span>
+        <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 32px; letter-spacing: -0.02em; line-height: 1.1;">Ecossistema de Execução Humano-Máquina</h3>
+        <p style="margin: 0; font-size: 18px; line-height: 1.55; color: #B7BDB9;">Temos método próprio, equipe qualificada e tecnologia desenvolvida para entregar mais rápido e com melhor qualidade que o mercado. É a união entre velocidade e qualidade.</p>
+      </li>
+    </ol>
+  </section>
+
+  <!-- SEÇÃO 6: SOBRE -->
+  <section id="sobre" style="height: 560px; box-sizing: border-box; padding: 96px 64px; border-top: 2px solid #F4F3EE; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px;">
+    <h2 style="grid-column: 1 / span 5; margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 52px; line-height: 1; letter-spacing: -0.03em; text-wrap: balance;">Fundada por engenheiros na Unicamp</h2>
+    <div style="grid-column: 7 / span 6; display: flex; flex-direction: column; gap: 24px; font-size: 20px; line-height: 1.55; color: #B7BDB9;">
+      <p style="margin: 0;">A Guará foi fundada por engenheiros na Unicamp e seu escritório fica dentro da universidade, no Parque Científico e Tecnológico.</p>
+      <p style="margin: 0;">Seu DNA é voltado ao mais elevado nível de análise de dados e visão tecnológica.</p>
+      <p style="margin: 0;">E também foi estruturado um ecossistema de escritores, editores e artistas visuais para ser uma segunda fortaleza da Guará. Unindo o melhor da visão humana com a agilidade da máquina.</p>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 7: OFERTAS -->
+  <section id="ofertas" style="height: 1000px; box-sizing: border-box; padding: 96px 64px; background: #1C2420; display: flex; flex-direction: column; gap: 48px;">
+    <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 64px; line-height: 1; letter-spacing: -0.03em;">Faça um projeto conosco e mude sua operação</h2>
+    <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px;">
+      <article style="background: #141A17; border: 2px solid #F4F3EE; padding: 36px; box-sizing: border-box; height: 700px; display: flex; flex-direction: column; gap: 18px;">
+        <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: -0.02em; line-height: 1.1;">Auditoria de Mídia Paga</h3>
+        <p style="margin: 0; font-size: 18px; font-weight: 600; line-height: 1.4;">Descubra onde sua verba está vazando antes de investir o próximo real.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #B7BDB9; flex-grow: 1;">Analisamos suas contas de Meta Ads e Google Ads de ponta a ponta: estrutura de campanhas, criativos, públicos, rastreamento e atribuição. Você recebe um diagnóstico com os gargalos priorizados pelo impacto em receita e um plano de ação claro para corrigir a rota.</p>
+        <a href="#contato" class="btn btn-fill" style="display: inline-flex; align-items: center; justify-content: center; height: 56px; background: #E0381C; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; border-radius: 999px;">Quero minha auditoria</a>
+      </article>
+      <article style="background: #141A17; border: 2px solid #F4F3EE; padding: 36px; box-sizing: border-box; height: 700px; display: flex; flex-direction: column; gap: 18px;">
+        <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: -0.02em; line-height: 1.1;">Consultoria Estratégica &amp; Execução em Escala</h3>
+        <p style="margin: 0; font-size: 18px; font-weight: 600; line-height: 1.4;">Direção estratégica e criativos no volume e na velocidade que a sua mídia exige.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #B7BDB9; flex-grow: 1;">Definimos posicionamento, ângulos de comunicação e plano de testes. A partir disso, nosso ecossistema humano-máquina produz estáticos, vídeos, carrosséis e landing pages em escala, com método próprio e padrão de qualidade. Sua equipe segue operando a mídia, agora com estratégia e munição criativa para testar mais e escalar o que funciona.</p>
+        <a href="#contato" class="btn btn-fill" style="display: inline-flex; align-items: center; justify-content: center; height: 56px; background: #E0381C; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; border-radius: 999px;">Quero escalar meus resultados</a>
+      </article>
+      <article style="background: #141A17; border: 2px solid #F4F3EE; padding: 36px; box-sizing: border-box; height: 700px; display: flex; flex-direction: column; gap: 18px;">
+        <h3 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 700; font-size: 30px; letter-spacing: -0.02em; line-height: 1.1;">Parceria estratégica na operação de tráfego pago, site, CRM e social media</h3>
+        <p style="margin: 0; font-size: 18px; font-weight: 600; line-height: 1.4;">Um time completo operando seu crescimento, da estratégia à execução.</p>
+        <p style="margin: 0; font-size: 17px; line-height: 1.55; color: #B7BDB9; flex-grow: 1;">Tráfego pago, site, CRM e social media sob a mesma direção estratégica, com rotina de otimização e relatórios de performance. Menos fornecedores para coordenar, mais velocidade entre a decisão e a execução, e todas as frentes puxando para o mesmo lado: receita.</p>
+        <a href="#contato" class="btn btn-fill" style="display: inline-flex; align-items: center; justify-content: center; height: 56px; background: #E0381C; color: #FFFFFF; text-decoration: none; font-weight: 600; font-size: 17px; border-radius: 999px;">Quero a Guará no meu time</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- SEÇÃO 8: FORMULÁRIO -->
+  <section id="contato" style="height: 820px; box-sizing: border-box; padding: 96px 64px; background: #E0381C; color: #FFFFFF; display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: 24px; align-items: start;">
+    <div style="grid-column: 1 / span 5; display: flex; flex-direction: column; gap: 20px;">
+      <h2 style="margin: 0; font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 72px; line-height: 0.95; letter-spacing: -0.035em;">Tem interesse em saber mais?</h2>
+      <p style="margin: 0; font-size: 22px; line-height: 1.45;">Preencha o formulário abaixo.</p>
+    </div>
+    <form style="grid-column: 7 / span 6; display: flex; flex-direction: column; gap: 12px;">
+      <label for="nome" style="font-size: 15px; font-weight: 600;">Nome</label>
+      <input id="nome" name="nome" type="text" style="height: 52px; box-sizing: border-box; padding: 0 16px; border: 2px solid #FFFFFF; background: #FFFFFF; color: #141A17; font-size: 16px; border-radius: 6px; font-family: inherit;">
+      <label for="whatsapp" style="font-size: 15px; font-weight: 600;">WhatsApp</label>
+      <input id="whatsapp" name="whatsapp" type="tel" style="height: 52px; box-sizing: border-box; padding: 0 16px; border: 2px solid #FFFFFF; background: #FFFFFF; color: #141A17; font-size: 16px; border-radius: 6px; font-family: inherit;">
+      <label for="site" style="font-size: 15px; font-weight: 600;">Site ou @ da empresa</label>
+      <input id="site" name="site" type="text" style="height: 52px; box-sizing: border-box; padding: 0 16px; border: 2px solid #FFFFFF; background: #FFFFFF; color: #141A17; font-size: 16px; border-radius: 6px; font-family: inherit;">
+      <label for="faturamento" style="font-size: 15px; font-weight: 600;">Faturamento mensal</label>
+      <select id="faturamento" name="faturamento" style="height: 52px; box-sizing: border-box; padding: 0 12px; border: 2px solid #FFFFFF; background: #FFFFFF; color: #141A17; font-size: 16px; border-radius: 6px; font-family: inherit;">
+        <option>Até R$ 100 mil</option>
+        <option>De R$ 100 mil a R$ 500 mil</option>
+        <option>De R$ 500 mil a R$ 1 milhão</option>
+        <option>Acima de R$ 1 milhão</option>
+      </select>
+      <label for="solucao" style="font-size: 15px; font-weight: 600;">Qual solução te interessa</label>
+      <select id="solucao" name="solucao" style="height: 52px; box-sizing: border-box; padding: 0 12px; border: 2px solid #FFFFFF; background: #FFFFFF; color: #141A17; font-size: 16px; border-radius: 6px; font-family: inherit;">
+        <option>Auditoria de Mídia Paga</option>
+        <option>Consultoria Estratégica &amp; Execução em Escala</option>
+        <option>Parceria estratégica completa</option>
+        <option>Ainda não sei</option>
+      </select>
+      <button type="button" class="btn btn-ink" style="margin-top: 10px; height: 56px; border: 0; background: #F4F3EE; color: #141A17; font-size: 17px; font-weight: 600; border-radius: 999px; cursor: pointer; font-family: inherit;">Enviar</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="flex-grow: 1; box-sizing: border-box; padding: 48px 64px 32px; background: #F4F3EE; color: #141A17; display: flex; flex-direction: column; justify-content: space-between;">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <span style="font-family: 'Bricolage Grotesque', sans-serif; font-weight: 800; font-size: 32px; letter-spacing: -0.02em;">Guará Marketing</span>
+        <span style="font-size: 15px; color: #B7BDB9; line-height: 1.5; max-width: 40ch;">Parque Científico e Tecnológico da Unicamp, Campinas, SP.</span>
+      </div>
+      <nav aria-label="Rodapé" style="display: flex; gap: 32px; font-size: 16px;">
+        <a href="#caminho" style="color: #141A17; text-decoration: none;">O caminho Guará</a>
+        <a href="#ofertas" style="color: #141A17; text-decoration: none;">Ofertas</a>
+        <a href="#contato" style="color: #141A17; text-decoration: none;">[EMAIL DA AGÊNCIA]</a>
+        <a href="#contato" style="color: #141A17; text-decoration: none;">Instagram</a>
+      </nav>
+    </div>
+    <div style="display: flex; justify-content: space-between; font-size: 14px; color: #B7BDB9; border-top: 1px solid #2E3632; padding-top: 20px;">
+      <span>© 2026 Guará Marketing</span>
+      <a href="#contato" style="color: #B7BDB9; text-decoration: none;">Política de privacidade</a>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5480}}'>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>
